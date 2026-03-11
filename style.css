@@ -21,4 +21,9 @@ li {
   padding: 8px;
   margin-top: 5px;
   background: #eee;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
 }

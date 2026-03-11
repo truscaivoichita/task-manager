@@ -11,6 +11,10 @@ form.addEventListener("submit", function (e) {
   const li = document.createElement("li");
   li.textContent = taskText;
 
+  li.addEventListener("click", function () {
+    li.classList.toggle("completed");
+  });
+
   list.appendChild(li);
 
   input.value = "";
